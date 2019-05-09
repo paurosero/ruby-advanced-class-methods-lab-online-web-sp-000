@@ -44,7 +44,7 @@ class Song
     seperate_name = filename.split(" - ")
     song = self.new 
     artist_name = seperate_name[0]
-    song_name = 
+    song_name = seperate_name[1].remove
   end
 
 end
