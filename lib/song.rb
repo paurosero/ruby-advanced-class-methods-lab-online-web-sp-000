@@ -46,6 +46,7 @@ class Song
     song_name = seperate_name[1].chomp(".mp3")
     
     song = self.new 
+    
   end
 
 end
